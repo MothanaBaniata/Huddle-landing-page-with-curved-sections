@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: open-sans;
+    font-size: 1.25rem;
+
+}
+
+h1, h2, p {
+    font-family: Poppins;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90rem;
+    margin: 5rem;
+    margin-bottom: 0;
+}
+header img {
+    width: 15rem;
+}
+
+header button {
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    background-color: white;
+    border-radius: 20px;
+    width: 8.5rem;
+}
+
+.part-1 {
+    width: 90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14.063rem;
+    
+}
+
+.a1 img {
+    width: 60rem;
+    margin: auto;
+}
+
+.a1 p {
+width:35rem;
+margin: auto;
+margin-top: 1.625rem;
+margin-bottom: 0;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 63.563rem;
+    height: 72.313rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.a1 button {
+    margin: auto;
+    margin-top: 3.063rem;
+    width: 25rem;
+    height: 5rem;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 5rem;
+}
+
+.a2 {
+    display: flex;
+    justify-content: space-between;
+    width: 55rem;
+}
+
+.part-2 {
+    width: 90rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 7.5rem;
+    gap: 6.5rem;
+    margin-top: 8.3rem;
+}
+
+.part-2 .div img {
+    width: 35rem;
+}
+.div {
+    display: flex;
+    gap: 7.5rem;
+    align-items: center;
+}
+
+.div p {
+    margin-top: 2rem;
+}
+
+.first, .third {
+    background-image: url(/images/bg-section-bottom-desktop-1.svg), url(/images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
